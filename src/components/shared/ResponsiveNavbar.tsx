@@ -13,14 +13,14 @@ const ResponsiveNavbar: React.FC = () => {
   return (
     <header className="relative w-5/6 mx-auto py-6 flex items-center justify-between">
       {/* Logo Section */}
-      <div className="logo">
+      <Link href="/" className="logo">
         <Image
           src="/assets/logo.png"
           alt="logo"
           width={274}
           height={70}
         />
-      </div>
+      </Link>
 
       {/* Search Bar */}
       <div className="hidden md:flex items-center">
@@ -68,8 +68,9 @@ const ResponsiveNavbar: React.FC = () => {
       {/* Icons Section */}
       <div className="hidden md:flex space-x-4 text-primaryText">
         <FaRegHeart className="text-xl" />
-        <FiShoppingCart className="text-xl" />
-        <Link href="/login"><RiUserLine className="text-xl" /></Link>
+        
+        <Link href="/shoppingCart"><FiShoppingCart className="text-xl text-primaryText hover:cursor-pointer" /></Link>
+        <Link href="/login"><RiUserLine className="text-xl text-primaryText hover:cursor-pointer" /></Link>
       </div>
 
       {/* Mobile Menu Button */}
@@ -107,7 +108,8 @@ const ResponsiveNavbar: React.FC = () => {
           </nav>
           <div className="flex justify-center mt-6 space-x-6">
             <FaRegHeart className="text-xl text-primaryText" />
-            <FiShoppingCart className="text-xl text-primaryText" />
+            
+            <Link href="/shoppingCart"><FiShoppingCart className="text-xl text-primaryText hover:cursor-pointer" /></Link>
             <Link href='/login'><RiUserLine className="text-xl text-primaryText hover:cursor-pointer" /></Link>
           </div>
         </div>

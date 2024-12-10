@@ -104,22 +104,23 @@ const SignUp: React.FC =() => {
     
             <button 
               type="submit" 
-              className="w-full py-5 bg-orange-500 text-white rounded-full text-lg font-semibold mb-4"
+              className="w-full py-3 bg-orange-500 text-white rounded-full text-lg font-semibold mb-4"
             >
               Create Account
             </button>
     
             <button 
               type="button" 
-              className="w-full py-4 bg-white border border-gray-300 rounded-lg text-lg font-semibold text-gray-700 flex items-center justify-center gap-4"
+              className="w-full py-2 bg-white border border-gray-300 rounded-lg text-lg font-semibold text-gray-700 flex items-center  gap-4"
             >
               <img 
-                src="https://placeholder.pics/svg/1:10972" 
+                src="/assets/Google.png" 
                 alt="Google logo"
                 width={34.94}
                 height={34.94}
+                className="ml-4"
               />
-              Continue with Google
+              <p className="mx-auto">Continue with Google</p>
             </button>
           </form>
         </div>

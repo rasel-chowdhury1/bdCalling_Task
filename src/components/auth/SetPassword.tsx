@@ -84,7 +84,7 @@ const SetPassword: React.FC = () => {
     
             <button 
               type="submit" 
-              className="w-full py-5 bg-orange-500 text-white rounded-full text-lg font-semibold mb-4"
+              className="w-full py-3 bg-orange-500 text-white rounded-full text-lg font-semibold mb-4"
             >
               Create Account
             </button>

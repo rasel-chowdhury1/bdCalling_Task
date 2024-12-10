@@ -63,7 +63,7 @@ const Navbar: React.FC = () => {
       {/* Icons Section */}
       <div className="flex space-x-4 text-primaryText sm:space-x-6">
         <FaRegHeart className="text-xl" />
-        <FiShoppingCart className="text-xl" />
+        <Link href="/shoppingCart"><FiShoppingCart className="text-xl" /></Link>
         <Link href="/login"><RiUserLine className="text-xl" /></Link>
       </div>
 

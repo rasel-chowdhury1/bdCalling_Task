@@ -16,7 +16,7 @@ const Forget: React.FC = () => {
             />
 
             {/* Submit Button */}
-            <button className="w-full py-4 bg-orange-500 text-white text-lg font-semibold rounded-full hover:bg-orange-600 transition">
+            <button className="w-full py-3 bg-orange-500 text-white text-lg font-semibold rounded-full hover:bg-orange-600 transition">
                 Submit
             </button>
             </div>

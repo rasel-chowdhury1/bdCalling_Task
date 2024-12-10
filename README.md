@@ -4,19 +4,23 @@
 **Discount Me** is a modern web application designed to streamline user interactions with discounts, restaurants, and products. This project showcases a fully responsive and feature-rich interface, leveraging cutting-edge technologies to deliver a seamless user experience.
 
 ## Features
-- **Authentication System**: 
-  - Sign In
-  - Sign Up
-  - Forgot Password
-  - Reset Password
+- **Authentication System UI**: 
+  - Sign In - https://discountme.vercel.app/login
+  - Sign Up - https://discountme.vercel.app/register
+  - Forgot Password - https://discountme.vercel.app/forget
+  - Reset Password - https://discountme.vercel.app/setpassword
 
 - **Pages**:
-  - Home Page
-  - Restaurant List Page
-  - Product List Page
-  - Product Details Page
-  - Booking Page
-  - Cart Page
+  - Home Page - https://discountme.vercel.app
+  - Restaurant List Page - https://discountme.vercel.app/restaurant
+  - Restaurant Details Page - https://discountme.vercel.app/restaurant/details
+  - Product List Page - https://discountme.vercel.app/productItems
+  - Product Details Page - https://discountme.vercel.app/categoryDetails
+  - Cart Page - https://discountme.vercel.app/shoppingCart
+  - Checkout Page - https://discountme.vercel.app/checkout
+  - Confirm Page - when user click place order button on checkout page show this comfirm modal page
+  - About Us Page - https://discountme.vercel.app/about
+  - contact Us Page - https://discountme.vercel.app/contact
   - Dashboard Page
 
 - **Responsive Design**: Fully optimized for all devices.
