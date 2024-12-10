@@ -4,7 +4,7 @@ import Banner from "./Banner";
 const SignIn: React.FC = () => {
     return (
     <div>
-        <Banner/>
+        <Banner path="/assets/signInBanner.png"/>
         <div className="max-w-lg mx-auto p-6 mt-2 mb-24 bg-white rounded-lg shadow-lg text-center">
             
         <h2 className="text-4xl font-semibold mb-6 text-gray-900">Sign In</h2>

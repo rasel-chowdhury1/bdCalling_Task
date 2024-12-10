@@ -1,7 +1,8 @@
 
 interface SearchFieldProps {
-    color: string; // 'color' is of type string
+    color: string; 
   }
+
 const SearchField:React.FC<SearchFieldProps> = ({color}) => {
     return (
         <div className="w-4/6 border-2 flex justify-between  rounded-full">

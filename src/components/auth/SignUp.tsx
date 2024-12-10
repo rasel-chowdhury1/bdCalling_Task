@@ -28,7 +28,7 @@ const SignUp: React.FC =() => {
     
       return (
         <div>
-            <Banner/>
+            <Banner path="/assets/signInBanner.png"/>
         <div className="max-w-xl mx-auto p-8 mt-6 mb-20 bg-white border border-gray-200 rounded-lg">
           <h1 className="text-4xl font-semibold text-center text-gray-800 mb-8">Create Account</h1>
           

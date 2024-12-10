@@ -3,7 +3,7 @@ import Banner from "./Banner";
 const Forget: React.FC = () => { 
     return (
         <div>
-            <Banner/>
+            <Banner path="/assets/signInBanner.png"/>
             <div className="max-w-lg mx-auto my-8 p-8 bg-white rounded-lg shadow-md text-center">
             {/* Title */}
             <h1 className="text-4xl font-semibold text-gray-800 mb-6">Forgot Password</h1>
