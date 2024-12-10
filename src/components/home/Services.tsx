@@ -36,13 +36,13 @@ const Services: React.FC = () => {
                 {features.map((feature) => (
                     <div
                     key={feature.id}
-                    className="flex flex-row items-center text-gray-800 gap-3 p-4 w-full sm:w-auto sm:max-w-sm"
+                    className="flex flex-row items-center text-gray-800 gap-3  w-full sm:w-auto sm:max-w-sm"
                     >
                     <Image
                         src={feature.path}
                         alt={feature.title}
-                        width={40}
-                        height={40}
+                        width={30}
+                        height={30}
                         className="flex-shrink-0"
                     />
                     <div>

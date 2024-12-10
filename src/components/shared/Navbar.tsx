@@ -5,7 +5,7 @@ import { RiUserLine } from "react-icons/ri";
 
 const Navbar: React.FC = () => {
   return (
-    <header className="flex items-center justify-between w-5/6 mx-auto py-4">
+    <header className="flex items-center justify-between w-5/6 mx-auto py-6">
       {/* Logo Section */}
       <div className="logo">
         <Image
@@ -17,8 +17,8 @@ const Navbar: React.FC = () => {
       </div>
 
       {/* Search Bar */}
-      <div className="flex items-center sm:flex-row sm:space-x-4">
-        <div className="flex items-center border border-gray-300 rounded-l-full px-4 py-2">
+      <div className="flex items-center ">
+        <div className="flex border items-center border-gray-300 rounded-l-full px-4 py-2">
           <Image
             src="/assets/Search.png"
             alt="search-icon"
