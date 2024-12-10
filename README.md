@@ -110,6 +110,6 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ## Contact
 For questions or feedback, please contact:
-- **Name**: Your Name
-- **Email**: your.email@example.com
-- **GitHub**: [https://github.com/your-username](https://github.com/your-username)
+- **Name**: Rasel Chowdhury
+- **Email**: chowdhuryrasel040@gmail.com
+- **GitHub**: [https://github.com/rasel-chowdhury1](https://github.com/rasel-chowdhury1)
