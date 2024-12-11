@@ -59,7 +59,7 @@ const SignUp: React.FC =() => {
                 onClick={() => setShowPassword(!showPassword)}
               >
                 <img 
-                  src="https://dashboard.codeparrot.ai/api/assets/Z1bxj-4ZL_Fz8l3c" 
+                  src="/assets/eye.png" 
                   alt="toggle password visibility"
                   width={29.12}
                   height={29.12}
@@ -83,7 +83,7 @@ const SignUp: React.FC =() => {
                 onClick={() => setShowConfirmPassword(!showConfirmPassword)}
               >
                 <img 
-                  src="https://dashboard.codeparrot.ai/api/assets/Z1bxj-4ZL_Fz8l3c" 
+                  src="/assets/eye.png" 
                   alt="toggle password visibility"
                   width={29.12}
                   height={29.12}

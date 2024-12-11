@@ -21,7 +21,7 @@
   - Confirm Page - when user click place order button on checkout page show this comfirm modal page
   - About Us Page - https://discountme.vercel.app/about
   - contact Us Page - https://discountme.vercel.app/contact
-  - Dashboard Page
+  - Dashboard Page - https://discountme.vercel.app/dashboard
 
 - **Responsive Design**: Fully optimized for all devices.
 

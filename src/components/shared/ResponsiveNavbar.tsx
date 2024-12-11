@@ -44,13 +44,13 @@ const ResponsiveNavbar: React.FC = () => {
 
       {/* Desktop Navigation Links */}
       <nav className="hidden md:flex space-x-6">
-        <a
-          href="#"
+        <Link
+          href="/categoryDetails"
           className="flex items-center font-figtree text-sm gap-2 text-primaryText text-lg font-medium hover:opacity-80 transition"
         >
           <p>All Category</p>
           <FaChevronDown className="text-[#1D242D]" />
-        </a>
+        </Link>
         <Link
           href="/about"
           className="text-primaryText font-figtree text-base font-medium hover:opacity-80 transition"
@@ -84,27 +84,28 @@ const ResponsiveNavbar: React.FC = () => {
 
       {/* Mobile Dropdown Menu */}
       {isMobileMenuOpen && (
-        <div className="absolute top-full left-0 w-full bg-white shadow-md rounded-lg mt-4 py-4 z-50">
+        <div onClick={() => setIsMobileMenuOpen((prev) => !prev)} className="absolute top-full left-0 w-full bg-white shadow-md rounded-lg mt-4 py-4 z-50">
           <nav className="flex flex-col items-center space-y-4">
-            <a
-              href="#"
+            <Link
+              href="/categoryDetails"
+              
               className="flex items-center font-figtree text-sm gap-2 text-primaryText text-lg font-medium hover:opacity-80 transition"
             >
               <p>All Category</p>
               <FaChevronDown className="text-[#1D242D]" />
-            </a>
+            </Link>
             <Link
               href="/about"
               className="text-primaryText font-figtree text-base font-medium hover:opacity-80 transition"
             >
               About Us
             </Link>
-            <a
-              href="#"
+            <Link
+              href="/contact"
               className="text-primaryText font-figtree text-base font-medium hover:opacity-80 transition"
             >
               Contact Us
-            </a>
+            </Link>
           </nav>
           <div className="flex justify-center mt-6 space-x-6">
             <FaRegHeart className="text-xl text-primaryText" />

@@ -24,7 +24,7 @@ const SignIn: React.FC = () => {
             />
             <span className="absolute right-4 top-1/2 transform -translate-y-1/2 cursor-pointer">
               <img
-                src="https://dashboard.codeparrot.ai/api/assets/Z1bxj-4ZL_Fz8l3c"
+                src="/assets/eye.png"
                 alt="Toggle Password Visibility"
                 width="24"
                 height="24"
@@ -40,7 +40,7 @@ const SignIn: React.FC = () => {
           </div>
           <button
             type="submit"
-            className="w-full py-4 bg-orange-500 text-white text-lg font-semibold rounded-full hover:bg-orange-600 transition duration-200"
+            className="w-full py-2 bg-orange-500 text-white text-lg font-semibold rounded-full hover:bg-orange-600 transition duration-200"
           >
             Login
           </button>
