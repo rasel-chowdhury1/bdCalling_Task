@@ -11,8 +11,8 @@ const Navbar: React.FC = () => {
         <Image
           src="/assets/logo.png"
           alt="logo"
-          width={260}
-          height={65}
+          width={274}
+          height={70}
         />
       </div>
 
@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
             className="ml-2 border-none outline-none text-gray-500 text-sm"
           />
         </div>
-        <button className="bg-orange-500 text-white font-semibold px-6 py-2 rounded-r-full hidden sm:block">
+        <button className="bg-orange-500 text-white font-figtree text-sm text-[#F8FAFC] px-6 py-2 rounded-r-full hidden sm:block">
           Search
         </button>
       </div>
@@ -40,20 +40,20 @@ const Navbar: React.FC = () => {
       <nav className="hidden sm:flex space-x-6">
         <a
           href="#"
-          className="flex items-center gap-2 text-primaryText text-lg font-medium hover:opacity-80 transition"
+          className="flex items-center font-figtree text-sm gap-2 text-primaryText text-lg font-medium hover:opacity-80 transition"
         >
           <p>All Category</p>
-          <FaChevronDown />
+          <FaChevronDown className="text-[#1D242D]" />
         </a>
         <a
           href="#"
-          className="text-primaryText text-lg font-medium hover:opacity-80 transition"
+          className="text-primaryText font-figtree text-base font-medium hover:opacity-80 transition"
         >
           About Us
         </a>
         <a
           href="#"
-          className="text-primaryText text-lg font-medium hover:opacity-80 transition"
+          className="text-primaryText font-figtree text-base font-medium hover:opacity-80 transition"
         >
           Contact Us
         </a>

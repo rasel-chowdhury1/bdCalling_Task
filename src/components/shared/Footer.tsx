@@ -23,7 +23,7 @@ const Footer: React.FC = ( ) => {
                     <input
                     type="email"
                     placeholder="Type your email address"
-                    className="flex-grow px-4 py-2 rounded-full border-2 bg-transparent text-gray-100 placeholder-gray-400 focus:outline-none"
+                    className="flex-grow px-4 py-2 rounded-full border bg-transparent text-gray-100 placeholder-gray-400 focus:outline-none"
                     />
                     </div>
                     <button className="px-6 py-2 bg-white text-gray-900 font-semibold hover:bg-gray-300 rounded-full">

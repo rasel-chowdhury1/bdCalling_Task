@@ -12,7 +12,17 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        roboto: ["Roboto", "sans-serif"],
+        "dm-sans": ["DM Sans", "sans-serif"],
+        "kumbh-sans": ["Kumbh Sans", "sans-serif"],
+        "inter": ["Inter", "sans-serif"],
+        "figtree": ["Figtree", "sans-serif"],
+        "urbanist": ["Urbanist", "sans-serif"],
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
 } satisfies Config;

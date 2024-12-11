@@ -16,13 +16,16 @@ const Hero: React.FC = () => {
        
        <div className="w-5/6 mx-auto flex flex-col md:flex-row ">
       {/** left side */}
-      <div className="w-3/5 flex flex-col justify-center">
-        <h1 className="text-2xl md:text-6xl font-bold text-black leading-tight font-roboto mb-2">
-          Good <span className="text-orange-500 mb-2">food</span>, great memories
+      <div className="w-full md:w-3/5 flex flex-col justify-center">
+
+        <div className="">
+        <h1 className="text-2xl font-roboto md:text-6xl font-bold text-black leading-[110%] font-roboto md:mb-2">
+          Good <span className="text-orange-500 ">food</span>, great memories
         </h1>
-        <p className="text-xl md:text-2xl text-gray-700 mt-6 font-dmsans leading-relaxed mb-6 w-full block break-words">
+        <p className="font-dm-sans text-xl md:text-2xl text-gray-700 mt-6 font-dmsans leading-[28px] mb-6 w-full block break-words">
         Enable diners to customize their booking by requesting a specific table location or view.
         </p>
+        </div>
         
         <SearchField color="bg-green-500"/>
         

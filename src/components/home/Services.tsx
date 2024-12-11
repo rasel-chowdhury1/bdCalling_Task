@@ -38,16 +38,22 @@ const Services: React.FC = () => {
                     key={feature.id}
                     className="flex flex-row items-center text-gray-800 gap-3  w-full sm:w-auto sm:max-w-sm"
                     >
-                    <Image
+                    {feature.id === "2"? <Image
                         src={feature.path}
                         alt={feature.title}
-                        width={30}
-                        height={30}
+                        width={55}
+                        height={33}
                         className="flex-shrink-0"
-                    />
+                    />: <Image
+                    src={feature.path}
+                    alt={feature.title}
+                    width={35}
+                    height={35}
+                    className="flex-shrink-0"
+                />}
                     <div>
-                        <h3 className="text-sm font-medium uppercase">{feature.title}</h3>
-                        <p className="text-xs font-normal text-gray-500">{feature.description}</p>
+                        <h3 className="font-inter text-sm font-medium uppercase">{feature.title}</h3>
+                        <p className="font-inter text-xs font-normal text-gray-500">{feature.description}</p>
                     </div>
                     </div>
                 ))}
