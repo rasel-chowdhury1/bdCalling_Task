@@ -17,13 +17,7 @@ export default function CategoryDetails() {
         Quantity: 1
     }
 
-    const review = {
-        authorName : 'Kristin Watson',
-        authorImage:'/assets/reviews/user1.png',
-        rating:5,
-        timeAgo:'2 min ago',
-        comment:'Duis at ullamcorper nulla, eu dictum eros.',
-      }
+
     
     const commentData = [
         {
