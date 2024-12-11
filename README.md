@@ -17,6 +17,7 @@
   - Product Details Page
   - Booking Page
   - Cart Page
+  - Dashboard Page
 
 - **Responsive Design**: Fully optimized for all devices.
 
@@ -30,12 +31,12 @@ Follow these steps to set up the project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/discount-me.git
+   git clone https://github.com/rasel-chowdhury1/bdCalling_Task.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd discount-me
+   cd discountme
    ```
 
 3. Install dependencies:
@@ -79,7 +80,7 @@ discount-me/
 - `lint`: Runs ESLint to analyze and fix code issues.
 
 ## Live Demo
-A live demo of the application is available at: [https://your-live-demo-link.com](https://your-live-demo-link.com)
+A live demo of the application is available at: [https://discountme.vercel.app/](https://discountme.vercel.app/)
 
 ## Screenshots
 ### Home Page
