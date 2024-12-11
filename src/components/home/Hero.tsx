@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
       <div className="w-full md:w-3/5 flex flex-col justify-center">
 
         <div className="">
-        <h1 className="text-2xl font-roboto md:text-6xl font-bold text-black leading-[110%] font-roboto md:mb-2">
+        <h1 className="text-4xl font-roboto md:text-6xl lg:text-7xl font-bold text-black leading-[110%] font-roboto md:mb-2">
           Good <span className="text-orange-500 ">food</span>, great memories
         </h1>
         <p className="font-dm-sans text-xl md:text-2xl text-gray-700 mt-6 font-dmsans leading-[28px] mb-6 w-full block break-words">

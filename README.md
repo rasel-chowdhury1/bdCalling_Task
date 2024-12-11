@@ -27,6 +27,7 @@
       - cart page - https://discountme.vercel.app/cart
       - setting page - https://discountme.vercel.app/settings
   - Coupon page - https://discountme.vercel.app/coupon
+  - Share Review page - https://discountme.vercel.app/shareReview
 
 - **Responsive Design**: Fully optimized for all devices.
 
