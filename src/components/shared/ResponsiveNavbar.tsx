@@ -5,8 +5,9 @@ import { FaChevronDown, FaRegHeart } from "react-icons/fa";
 import { FiShoppingCart } from "react-icons/fi";
 import { RiUserLine } from "react-icons/ri";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import Link from "next/link";
 
-const Navbar1: React.FC = () => {
+const ResponsiveNavbar: React.FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
@@ -50,25 +51,25 @@ const Navbar1: React.FC = () => {
           <p>All Category</p>
           <FaChevronDown className="text-[#1D242D]" />
         </a>
-        <a
-          href="#"
+        <Link
+          href="/about"
           className="text-primaryText font-figtree text-base font-medium hover:opacity-80 transition"
         >
           About Us
-        </a>
-        <a
-          href="#"
+        </Link>
+        <Link
+          href="/contact"
           className="text-primaryText font-figtree text-base font-medium hover:opacity-80 transition"
         >
           Contact Us
-        </a>
+        </Link>
       </nav>
 
       {/* Icons Section */}
       <div className="hidden md:flex space-x-4 text-primaryText">
         <FaRegHeart className="text-xl" />
         <FiShoppingCart className="text-xl" />
-        <RiUserLine className="text-xl" />
+        <Link href="/login"><RiUserLine className="text-xl" /></Link>
       </div>
 
       {/* Mobile Menu Button */}
@@ -91,12 +92,12 @@ const Navbar1: React.FC = () => {
               <p>All Category</p>
               <FaChevronDown className="text-[#1D242D]" />
             </a>
-            <a
-              href="#"
+            <Link
+              href="/about"
               className="text-primaryText font-figtree text-base font-medium hover:opacity-80 transition"
             >
               About Us
-            </a>
+            </Link>
             <a
               href="#"
               className="text-primaryText font-figtree text-base font-medium hover:opacity-80 transition"
@@ -107,7 +108,7 @@ const Navbar1: React.FC = () => {
           <div className="flex justify-center mt-6 space-x-6">
             <FaRegHeart className="text-xl text-primaryText" />
             <FiShoppingCart className="text-xl text-primaryText" />
-            <RiUserLine className="text-xl text-primaryText" />
+            <Link href='/login'><RiUserLine className="text-xl text-primaryText hover:cursor-pointer" /></Link>
           </div>
         </div>
       )}
@@ -115,4 +116,4 @@ const Navbar1: React.FC = () => {
   );
 };
 
-export default Navbar1;
+export default ResponsiveNavbar;

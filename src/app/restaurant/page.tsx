@@ -1,5 +1,7 @@
+
 import RestaurantCard from "@/components/home/RestaurantCard"
 import SearchField from "@/components/shared/SearchField"
+import { RestaurantData } from "@/lib/RestaurantData"
 
 export default function Restaurant() {
     return (
@@ -20,21 +22,9 @@ export default function Restaurant() {
           </div>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 my-8">
-                <RestaurantCard />
-                <RestaurantCard />
-                <RestaurantCard />
-                <RestaurantCard />
-                <RestaurantCard />
-                <RestaurantCard />
-                <RestaurantCard />
-                <RestaurantCard />
-                <RestaurantCard />
-                <RestaurantCard />
-                <RestaurantCard />
-                <RestaurantCard />
-                <RestaurantCard />
-                <RestaurantCard />
-                <RestaurantCard />
+            {RestaurantData.map((res,idx) => (
+                    <RestaurantCard key={idx} data={res} />
+                ))}
             </div>
 
         </div>

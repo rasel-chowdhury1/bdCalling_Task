@@ -19,10 +19,10 @@ export default {
         "inter": ["Inter", "sans-serif"],
         "figtree": ["Figtree", "sans-serif"],
         "urbanist": ["Urbanist", "sans-serif"],
+        "poppins": ["Poppins", "sans-serif"],
       },
     },
   },
   plugins: [
-    require('daisyui'),
   ],
 } satisfies Config;

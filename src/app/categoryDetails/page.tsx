@@ -63,17 +63,17 @@ export default function CategoryDetails() {
          <Banner path="/assets/CategoriesBanner.png"/>
 
          <div className="w-5/6 mx-auto">
-             <div className="flex flex-col md:flex-row gap-2">
+             <div className="flex w-full flex-col md:flex-row gap-2">
                 {/** left side */}
-                <div className="flex items-center my-4">
+                <div className="flex items-center w-full md:w-1/2  my-4 ">
                     <div className="grid grid-cols-1 justify-items-center space-y-2 md:space-y-8">
                         <IoIosArrowUp size={20}/>
                         <div className="flex flex-col gap-2 mr-2">
                             {Category.sliderImages.map((path,idx) => (
-                               <div>
+                               <div key={idx}>
                                <Image
                                src={path}
-                               key={idx}
+                               
                                alt="Product"
                                className=""
                                width={92}
@@ -98,7 +98,7 @@ export default function CategoryDetails() {
                 </div>
 
                 {/** right side */}
-                <div className="my-4 max-w-4xl mx-auto p-6 bg-white shadow rounded flex flex-col justify-between">
+                <div className="my-4 w-full md:w-1/2  p-6 bg-white shadow rounded flex flex-col justify-between">
 
                     {/** name and review */}
                     <div className="flex flex-col gap-2">
@@ -112,13 +112,17 @@ export default function CategoryDetails() {
                             <span>{'⭐'.repeat(5)}</span>
                             <span>{Category.ReviewCount} Reviews</span>
                         </div>
-                        <div className="text-xl md:text-2xl font-semibold text-gray-900">${Category.Price}</div>
+                        
                     </div>
                     
                     {/** category  */}
                     <div className="flex flex-col gap-2">
-                        <div className="text-gray-600">
-                            <span className="text-lg font-bold">Category:</span> Freeze
+                        <div className="mt-2 flex flex-row justify-between md:flex-col">
+                           <div className="text-xl md:text-2xl font-semibold text-gray-900">${Category.Price}</div>
+                            <div className="text-gray-600">
+                                <span className="text-lg font-bold">Category:</span> Freeze
+                            </div>
+
                         </div>
                         <p className="text-gray-700 text-base">{Category.Details} </p>
                     </div>
@@ -127,26 +131,26 @@ export default function CategoryDetails() {
                     <div>
                         <div className="flex items-center">
                             <div className="mt-4 flex flex-col md:flex-row w-full gap-2">
-                                <div className="flex items-center justify-center gap-2 p-2 bg-white border rounded-full w-fit h-fit border-gray-300 ">
+                                <div className="flex items-center justify-center gap-2 p-1 bg-white border rounded-full w-fit h-[44px] border-gray-300 ">
                                     <IconButton>-</IconButton>
-                                    <span className="w-12 text-center font-medium text-gray-800">{Category.Quantity}</span>
+                                    <span className="w-5 text-center font-medium text-gray-800">{Category.Quantity}</span>
                                     <IconButton>+</IconButton>
                                 </div>
 
                                 <button
-                                className="flex items-center justify-center gap-4 bg-orange-500 rounded-full border-none py-2 px-12 cursor-pointer w-full max-w-[514px] h-[59px] transition-opacity duration-200 hover:opacity-90 grow"
+                                className="flex items-center justify-center gap-4 bg-orange-500 rounded-full border-none px-12 cursor-pointer w-fit max-w-[514px] h-[44px] transition-opacity duration-200 hover:opacity-90 grow"
                                 >
-                                <span className="text-white font-poppins text-lg font-semibold leading-[120%]">
+                                <span className="text-[#FFFFFF] font-poppins text-lg font-semibold leading-[120%]">
                                     Checkout
                                 </span>
                                 <img
-                                    src="https://dashboard.codeparrot.ai/api/assets/Z1j66m6v0cxbqCCo"
+                                    src="/assets/Checkout.png"
                                     alt="cart"
                                     className="w-[17px] h-[17px] object-contain"
                                 />
                                 </button>
 
-                                <button className="flex items-center justify-center w-16 h-16 bg-gray-100 rounded-full text-lg font-bold text-gray-800 hover:bg-gray-200 disabled:opacity-50 disabled:cursor-not-allowed">
+                                <button className="flex items-center justify-center w-16  bg-gray-100 rounded-full text-lg font-bold text-gray-800 hover:bg-gray-200 disabled:opacity-50 disabled:cursor-not-allowed">
                                 <LuShoppingCart />
                                 </button>
                             </div>

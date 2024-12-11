@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FaChevronDown, FaRegHeart } from "react-icons/fa";
 import { FiShoppingCart } from "react-icons/fi";
 import { RiUserLine } from "react-icons/ri";
@@ -39,31 +40,31 @@ const Navbar: React.FC = () => {
       {/* Navigation Links */}
       <nav className="hidden sm:flex space-x-6">
         <a
-          href="#"
+          href=""
           className="flex items-center font-figtree text-sm gap-2 text-primaryText text-lg font-medium hover:opacity-80 transition"
         >
           <p>All Category</p>
           <FaChevronDown className="text-[#1D242D]" />
         </a>
-        <a
-          href="#"
+        <Link
+          href="/about"
           className="text-primaryText font-figtree text-base font-medium hover:opacity-80 transition"
         >
           About Us
-        </a>
-        <a
-          href="#"
+        </Link>
+        <Link
+          href="/contact"
           className="text-primaryText font-figtree text-base font-medium hover:opacity-80 transition"
         >
           Contact Us
-        </a>
+        </Link>
       </nav>
 
       {/* Icons Section */}
       <div className="flex space-x-4 text-primaryText sm:space-x-6">
         <FaRegHeart className="text-xl" />
         <FiShoppingCart className="text-xl" />
-        <RiUserLine className="text-xl" />
+        <Link href="/login"><RiUserLine className="text-xl" /></Link>
       </div>
 
       {/* Mobile Menu Button */}

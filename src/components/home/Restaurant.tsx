@@ -1,30 +1,8 @@
+import { RestaurantData } from "@/lib/RestaurantData";
 import RestaurantCard from "./RestaurantCard";
 
 
-const RestaurantData = [
-    {
-        path: "/assets/home/Restaurant.png",
-        name: "Trattoria dall'Oste",
-        rating: 4.5,
-        location: "Via Luigi Alamanni, 3, 50123 Firenze",
-        des: "Featuring seasonal and sustainable seafood that is flown in fresh daily, our chef-driven menu proves that no matter when you are dining, seafood can be truly exceptional.  Read More..."
-    },
-    {
-        path: "/assets/home/Restaurant.png",
-        name: "Trattoria dall'Oste",
-        rating: 4.5,
-        location: "Via Luigi Alamanni, 3, 50123 Firenze",
-        des: "Featuring seasonal and sustainable seafood that is flown in fresh daily, our chef-driven menu proves that no matter when you are dining, seafood can be truly exceptional.  Read More..."
-    },
-    {
-        path: "/assets/Restaurant2.png",
-        name: "Trattoria dall'Oste",
-        rating: 4.5,
-        location: "Via Luigi Alamanni, 3, 50123 Firenze",
-        des: "Featuring seasonal and sustainable seafood that is flown in fresh daily, our chef-driven menu proves that no matter when you are dining, seafood can be truly exceptional.  Read More..."
-    },
-    
-]
+
 
 const Restaurant: React.FC = () => {
     return (
@@ -57,7 +35,7 @@ const Restaurant: React.FC = () => {
             </div>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 ">
-                {RestaurantData.map((res,idx) => (
+                {RestaurantData.slice(0, 3).map((res,idx) => (
                     <RestaurantCard key={idx} data={res} />
                 ))}
             </div>
