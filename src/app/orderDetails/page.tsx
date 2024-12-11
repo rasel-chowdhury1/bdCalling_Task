@@ -1,16 +1,15 @@
 import Banner from "@/components/auth/Banner";
-import OrderHistory from "@/components/shared/OrderHistory";
+import OrderDetails from "@/components/shared/OrderDetails";
 import Sidebar from "@/components/shared/Sidebar";
 
-
-export default function OrderHistoryPage(){
+export default function OrderDetailsPage(){
     return (
-          <div>
+        <div>
           <Banner path="/assets/signInBanner.png"/>
           <div className="w-5/6 mx-auto">
               <div className="flex w-full my-4">
                   <div className=" w-1/5"><Sidebar/></div>
-                  <div className="w-4/5 m-4 border rounded-md p-4"><OrderHistory  title="Order History" showPaginaion={true}/> </div>
+                  <div className="w-4/5 mx-4 border rounded-md "><OrderDetails/> </div>
               </div>
           </div>
       </div>

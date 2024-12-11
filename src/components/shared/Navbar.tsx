@@ -6,7 +6,7 @@ import { RiUserLine } from "react-icons/ri";
 
 const Navbar: React.FC = () => {
   return (
-    <header className="flex items-center justify-between w-5/6 mx-auto py-6">
+    <header className="flex items-center justify-between w-5/6 mx-auto py-6 ">
       {/* Logo Section */}
       <div className="logo">
         <Image

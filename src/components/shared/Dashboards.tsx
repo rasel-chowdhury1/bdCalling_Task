@@ -44,7 +44,7 @@ const Dashboards: React.FC = () => {
             </div>
 
             <div className="m-2 border rounded p-4">
-              <OrderHistory/>
+              <OrderHistory title="Recently Order History" showPaginaion={false}/>
             </div>
         </div>
     )

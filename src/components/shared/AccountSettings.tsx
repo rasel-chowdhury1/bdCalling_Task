@@ -220,7 +220,7 @@ const AccountSettings: React.FC = () => {
                 />
                 <button
                     type="button"
-                    className="absolute right-5 top-1/2 transform -translate-y-1/2"
+                    className="absolute right-5 pt-5 top-1/2 transform -translate-y-1/2"
                     onClick={() => setShowPassword(!showPassword)}
                 >
                     <img 
@@ -233,8 +233,8 @@ const AccountSettings: React.FC = () => {
                 </button>
                 </div>
     
-            <div className="flex gap-2">
-                <div className="relative mb-6 w-1/2">
+            <div className="flex flex-col md:flex-row gap-2">
+                <div className="relative mb-6 w-full md:w-1/2">
                 <label className="block  font-poppins leading-[150%] text-sm text-[#1A1A1A] mb-1">New Password </label>
                 <input
                     type={showPassword ? "text" : "password"}
@@ -246,7 +246,7 @@ const AccountSettings: React.FC = () => {
                 />
                 <button
                     type="button"
-                    className="absolute right-5 top-1/2 transform -translate-y-1/2"
+                    className="absolute right-5 pt-5 top-1/2 transform -translate-y-1/2"
                     onClick={() => setShowPassword(!showPassword)}
                 >
                     <img 
@@ -259,7 +259,7 @@ const AccountSettings: React.FC = () => {
                 </button>
                 </div>
         
-                <div className="relative mb-6 w-1/2">
+                <div className="relative mb-6 w-full md:w-1/2">
                 <label className="block  font-poppins leading-[150%] text-sm text-[#1A1A1A] mb-1">Confirm Password</label>
                 <input
                     type={showConfirmPassword ? "text" : "password"}
@@ -271,7 +271,7 @@ const AccountSettings: React.FC = () => {
                 />
                 <button
                     type="button"
-                    className="absolute right-5 top-1/2 transform -translate-y-1/2"
+                    className="absolute right-5 top-1/2 pt-5 transform -translate-y-1/2"
                     onClick={() => setShowConfirmPassword(!showConfirmPassword)}
                 >
                     <img 
@@ -287,7 +287,7 @@ const AccountSettings: React.FC = () => {
           </form>
                        <button 
                         type="submit" 
-                        className=" mx-6 w-[180px] px-2 py-2 my-6 font-poppins font-semibold bg-[#EA5326]  text-white rounded-full text-base"
+                        className=" w-[180px] px-2 py-2 my-6 font-poppins font-semibold bg-[#EA5326]  text-white rounded-full text-base"
                         >
                         Change Password
                         </button>

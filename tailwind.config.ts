@@ -20,6 +20,7 @@ export default {
         "figtree": ["Figtree", "sans-serif"],
         "urbanist": ["Urbanist", "sans-serif"],
         "poppins": ["Poppins", "sans-serif"],
+        "montserrat": ["Montserrat", "sans-serif"],
       },
     },
   },

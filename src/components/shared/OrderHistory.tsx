@@ -1,5 +1,10 @@
+import Image from 'next/image';
 import React from 'react';
 
+interface OrderData{
+  title: string;
+  showPaginaion: boolean;
+}
 interface Order {
   id: string;
   date: string;
@@ -8,7 +13,7 @@ interface Order {
   status: 'Processing' | 'on the way' | 'Completed' | 'Cancelled';
 }
 
-const OrderHistory: React.FC = () => {
+const OrderHistory: React.FC<OrderData> = ({title, showPaginaion}) => {
   const orders: Order[] = [
     {
       id: '738',
@@ -72,8 +77,8 @@ const OrderHistory: React.FC = () => {
   return (
     <div className="w-full max-w-[1077px] font-poppins text-gray-900 mx-auto">
       <div className='flex flex-col md:flex-row justify-between'>
-      <h2 className="text-xl font-semibold mb-4">Recent Order History</h2>
-      <div className="text-orange-500 cursor-pointer">View All</div>
+      <h2 className="text-xl font-semibold mb-4">{title}</h2>
+      <div className="text-orange-500 cursor-pointer">{showPaginaion ? " ": "View All"}</div>
       </div>
       <div className="flex justify-between items-center border-b-2 border-gray-200 pb-2 text-gray-500 font-medium">
         <div>ORDER ID</div>
@@ -103,6 +108,18 @@ const OrderHistory: React.FC = () => {
           </div>
         </div>
       ))}
+
+      {
+        showPaginaion ? <div className="flex justify-center my-4">
+        <Image
+          src="/assets/Pagination.png"
+          alt="logo"
+          width={220}
+          height={30}
+        />
+      </div>
+                      : ""
+      }
     </div>
   );
 };

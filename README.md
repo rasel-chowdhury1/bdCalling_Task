@@ -22,6 +22,11 @@
   - About Us Page - https://discountme.vercel.app/about
   - contact Us Page - https://discountme.vercel.app/contact
   - Dashboard Page - https://discountme.vercel.app/dashboard
+      - Order History page - https://discountme.vercel.app/order-history
+      - Order Detials page - https://discountme.vercel.app/orderDetails
+      - cart page - https://discountme.vercel.app/cart
+      - setting page - https://discountme.vercel.app/settings
+  - Coupon page - https://discountme.vercel.app/coupon
 
 - **Responsive Design**: Fully optimized for all devices.
 

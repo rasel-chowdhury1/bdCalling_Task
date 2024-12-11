@@ -8,7 +8,7 @@ const Sidebar: React.FC = () => {
   const menuItems = [
     { id: 'dashboard', label: 'Dashboard', icon: '/assets/dashboard/dashboard.png', path: '/dashboard' },
     { id: 'order-history', label: 'Order History', icon: '/assets/dashboard/order.png', path: '/order-history' },
-    { id: 'wishlist', label: 'Wishlist', icon: '/assets/dashboard/Wishlist.png', path: '/wishlist' },
+    { id: 'wishlist', label: 'Wishlist', icon: '/assets/dashboard/Wishlist.png', path: '/orderDetails' },
     { id: 'cart', label: 'Shopping Cart', icon: '/assets/dashboard/ShippingCart.png', path: '/cart' },
     { id: 'settings', label: 'Settings', icon: '/assets/dashboard/settings.png', path: '/settings' },
     { id: 'logout', label: 'Log-out', icon: '/assets/dashboard/logout.png', path: '/logout' },
