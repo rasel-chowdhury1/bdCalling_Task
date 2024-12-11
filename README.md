@@ -84,13 +84,13 @@ A live demo of the application is available at: [https://discountme.vercel.app/]
 
 ## Screenshots
 ### Home Page
-![Home Page](https://via.placeholder.com/800x400?text=Home+Page)
+![Home Page](https://ibb.co.com/vJRgVK5)
 
 ### Restaurant List Page
-![Restaurant List Page](https://via.placeholder.com/800x400?text=Restaurant+List+Page)
+![Restaurant List Page](https://ibb.co.com/Mszxwz6)
 
 ### Product Details Page
-![Product Details Page](https://via.placeholder.com/800x400?text=Product+Details+Page)
+![Product Details Page](https://ibb.co.com/KyPdXFM)
 
 ## Contributions
 Contributions are welcome! If you'd like to contribute, please follow these steps:
