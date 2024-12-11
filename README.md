@@ -84,7 +84,7 @@ A live demo of the application is available at: [https://discountme.vercel.app/]
 
 ## Screenshots
 ### Home Page
-![Home Page](https://ibb.co.com/vJRgVK5)
+![Home Page](assets/HomePage.png)
 
 ### Restaurant List Page
 ![Restaurant List Page](https://ibb.co.com/Mszxwz6)
